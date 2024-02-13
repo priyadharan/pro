@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}home{% endblock %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+{% block content %}
+  <h1><center> WELCOME TO PROJECT MANAGEMENT</center></h1>
+  <img src="{{ url_for('static',filename='pic.jpeg') }}" alt="">
+    
+{% endblock %}
+    
